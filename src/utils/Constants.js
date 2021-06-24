@@ -4,7 +4,6 @@ import C_Tonari_no_Totoro_pôster from'../assets/C_Tonari_no_Totoro_pôster.png'
 import D_Majo_no_Takkyūbin from'../assets/D_Majo_no_Takkyūbin.jpg';
 import E_Omohide_Poro_Poro_pôster from'../assets/E_Omohide_Poro_Poro_pôster.png';
 import F_Porco_Rosso from'../assets/F_Porco_Rosso.jpg';
-import G_Umi_ga_Kikoeru_pôster from'../assets/G_Umi_ga_Kikoeru_pôster.png';
 import H_Pom_Poko_pôster from'../assets/H_Pom_Poko_pôster.png';
 import I_Mimi_wo_Sumaseba_pôster from'../assets/I_Mimi_wo_Sumaseba_pôster.png';
 import J_Mononoke_Hime_pôster from'../assets/J_Mononoke_Hime_pôster.png';

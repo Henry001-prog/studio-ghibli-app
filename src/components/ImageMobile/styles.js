@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Background from '../../img/Logotipo-do-Estudio-Ghibli.png';
 
 export const DivImage = styled.div`
     display: flex;
@@ -10,11 +9,20 @@ export const DivImage = styled.div`
     margin-top: 30px;
     height: 75px;
     width: 50px;
-    margin-left: 350x;
+    margin-left: 35px;
+    @media(min-width: 767px) and (max-width: 1025px) {
+        justify-content: flex-end;
+        margin-left: 1px;
+        margin-right: 20px;
+    }
 `;
 
 export const Img = styled.img.attrs(props => ({
 }))`
     height: 75px;
     width: 50px;
+    @media(min-width: 767px) and (max-width: 1025px) {
+        height: 170px;
+        width: 130px;
+    }
 `;

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Background from '../../img/Logotipo-do-Estudio-Ghibli.png';
 
 export const DivImage = styled.div`
     display: flex;
@@ -14,4 +13,9 @@ export const Img = styled.img.attrs(props => ({
 }))`
     height: 150px;
     width: 110px;
+    
+    @media(min-width: 1024px) and (max-width: 1366px) {
+        height: 190px;
+        width: 160px;
+    }
 `;

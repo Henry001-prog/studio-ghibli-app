@@ -11,17 +11,12 @@ export const watchFilms = () => {
         async function loadData() {
             try {
                 const response = await api.get(`/films`);
-                //console.log('dados:', response.data);
                 const films = response.data;
                 console.log('redux:', films);
-                /*if (!films) {
-					return dispatch(setFilms({}))
-				}*/
-
                 const action = setFilms(films);
                 dispatch(action)
             } catch(error) {
-                alert("Não foi possível carregar os dados redux!");
+                alert("Não foi possível carregar os dados!");
                 return;
             }
         }
