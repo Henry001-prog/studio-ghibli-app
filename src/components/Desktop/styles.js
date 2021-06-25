@@ -66,6 +66,9 @@ export const Table = styled.table`
     @media(min-width: 1024px) and (max-width: 1366px) {
         width: 80vw;
     }
+    @media(min-width: 803px) and (max-width: 1022px) {
+        width: 83vw;
+    }
 `;
 
 export const Tr = styled.tr`

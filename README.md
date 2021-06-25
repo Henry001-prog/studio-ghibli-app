@@ -1,5 +1,7 @@
 <h1 align="center">Studio Ghibli App</h1>
 
+<img src="/photos/ghibli.gif" height="480" width="800">
+
 <h3 align="center">
     <p>App desenvolvido em React.js consumindo dados da Studio Ghibli API</p>
 </h3>

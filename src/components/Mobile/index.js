@@ -18,21 +18,19 @@ import poster from '../../utils/Constants';
 
 import _ from 'underscore';
 
-import { useSelector, useDispatch } from 'react-redux';
-import { watchFilms } from '../../store/actions';
+import { useSelector } from 'react-redux';
 
 export default function Home() {
 
     const film = useSelector((state) => state.films, _.isEqual);
-    const dispatch = useDispatch();
+    
 
     useEffect(() => {
-        dispatch(watchFilms());
         function message() {
             toast.success('Welcome to Studio Ghibli App');
         }
         message();
-    }, [dispatch, film]);
+    }, []);
     
     
     return (
